@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538246626194.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "32585EF5",
+    "lastKnownWriteTime" : 1538246133,
+    "last_content_update" : 1538246133,
+    "path" : "~/Documents/realtyquant/docker/application.yml",
+    "project_path" : "docker/application.yml",
+    "properties" : {
+        "cursorPosition" : "19,18",
+        "scrollLine" : "3"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

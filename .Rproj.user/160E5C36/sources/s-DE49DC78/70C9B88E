@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1538246625130.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "70C9B88E",
+    "lastKnownWriteTime" : 1538245502,
+    "last_content_update" : 1538245502,
+    "path" : "~/Documents/realtyquant/docker/Dockerfile",
+    "project_path" : "docker/Dockerfile",
+    "properties" : {
+        "cursorPosition" : "7,54",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}
