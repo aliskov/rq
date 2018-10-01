@@ -22,9 +22,9 @@ fi
 echo "Deploying Realty Quant to Docker Container"
 
 #Check for running container & stop it before starting a new one
-if [ $(docker inspect -f '{{.State.Running}}' $CONAINER_NAME) = "true" ]; then
-    docker stop realty_quant
-fi
+#if [ $(docker inspect -f '{{.State.Running}}' $CONAINER_NAME) = "true" ]; then
+#    docker stop realty_quant
+#fi
 
 echo "Starting RealtyQuant using Docker Image name: aliskov/rq:latest“
 

@@ -6,6 +6,7 @@ sudo apt-get install -y docker-ce
 
 sudo groupadd docker
 sudo usermod -aG docker $USER
+#logout and log back in
 docker network create rq-net
 
 
