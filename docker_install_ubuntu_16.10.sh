@@ -4,3 +4,6 @@ sudo apt-get update
 apt-cache policy docker-ce
 sudo apt-get install -y docker-ce
 sudo systemctl status docker
+
+#create the network
+sudo docker network create rq-net
