@@ -22,12 +22,9 @@ fi
 echo "Deploying Realty Quant to Docker Container"
 
 #Check for running container & stop it before starting a new one
-#if [ $(docker inspect -f '{{.State.Running}}' $CONAINER_NAME) = "true" ]; then
-#    docker stop realty_quant
-#fi
-
-echo "Starting RealtyQuant using Docker Image name: aliskov/rq:latest“
-
+docker stop realty_quant
+echo "Starting RealtyQuant using Docker Image name: aliskov/rq:latest"
+docker pull aliskov/rq:latest
 docker run -d --rm=true -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 --net rq-net --name realty_quant aliskov/rq:latest
 
 docker ps -a
